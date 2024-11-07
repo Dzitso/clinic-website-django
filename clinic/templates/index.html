@@ -1,0 +1,22 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My project</title>
+</head>
+<body>
+<a href="{% url 'about' %}">about</a>
+<a href="{% url 'blogs' %}">blogs</a>
+<a href="{% url 'contact' %}">contact</a>
+<a href="{% url 'services' %}">services</a>
+
+<h1>My website</h1>
+<p>welcome to my page</p>
+
+</body>
+</html>
